@@ -1,22 +1,91 @@
 aid: kodiak-ai
 name: Kodiak AI
-description: Kodiak AI is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kodiak AI, Inc. (formerly Kodiak Robotics) is a Mountain View, California
+  company founded in 2018 that builds AI-powered ground autonomy — the "Kodiak Driver"
+  — for long-haul freight trucking and for off-road, industrial, and defense ground
+  vehicles. The company sells a turnkey driver-as-a-product to fleet operators rather
+  than a public developer API: its surface is a corporate website, a news/press feed,
+  a safety report, and investor-relations material. Kodiak has run driverless
+  operations for partners including Atlas Energy, Roehl Transport, Martin Brower,
+  Tyson Foods, and West Fraser, and works with Bosch, NVIDIA, and General Dynamics
+  Land Systems on hardware and defense autonomy. It reports more than 2.6 million
+  autonomous miles and 7,000+ delivered loads. No public API, SDK, developer portal,
+  or OpenAPI definition has been found; the company does publish an llms.txt for
+  AI crawlers.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/kodiak/970b4048-fba9-4aed-b149-719ba24de0f1_preview.png?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=1200&h=630
 url: https://raw.githubusercontent.com/api-evangelist/kodiak-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Autonomous Vehicles
+- Artificial Intelligence
+- Robotics
+- Trucking
+- Freight
+- Logistics
+- Transportation
+- Physical AI
+- Defense
 apis: []
+common:
+- type: Website
+  url: https://kodiak.ai/
+- type: Blog
+  url: https://kodiak.ai/news
+- type: BlogRSS
+  url: https://kodiak.ai/feed.xml
+- type: GitHubOrganization
+  url: https://github.com/KodiakRobotics
+- type: Support
+  url: https://kodiak.ai/contact
+- type: PrivacyPolicy
+  url: https://kodiak.ai/privacy-policy
+- type: TermsOfService
+  url: https://kodiak.ai/terms-of-use
+- type: Careers
+  url: https://kodiak.ai/careers
+- type: InvestorRelations
+  url: https://kodiak.ai/investors
+- type: Media
+  url: https://kodiak.ai/media
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kodiakai
+- type: Twitter
+  url: https://x.com/KodiakRobotics
+- type: YouTube
+  url: https://www.youtube.com/channel/UCRG0KWUWZF3Kq-nPZ8Td56A
+- type: LLMsTxt
+  url: llms/kodiak-ai-llms.txt
+- type: WellKnown
+  url: well-known/kodiak-ai-well-known.yml
+- type: DomainSecurity
+  url: security/kodiak-ai-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
