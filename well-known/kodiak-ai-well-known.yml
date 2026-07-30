@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://kodiak.ai/
+host: https://kodiak.ai
+notes: >-
+  Kodiak AI publishes no API host and no /.well-known/ discovery surface. It does
+  publish an llms.txt for AI crawlers (saved verbatim at llms/kodiak-ai-llms.txt),
+  a robots.txt, an XML sitemap, and an RSS news feed. All statuses recorded below
+  were probed on 2026-07-19.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_discovery:
+- path: /llms.txt
+  status: 200
+  file: ../llms/kodiak-ai-llms.txt
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
+- path: /feed.xml
+  status: 200
+subdomains_probed:
+- host: developer.kodiak.ai
+  status: nxdomain
+- host: docs.kodiak.ai
+  status: nxdomain
+- host: api.kodiak.ai
+  status: nxdomain
+- host: status.kodiak.ai
+  status: nxdomain
+- host: trust.kodiak.ai
+  status: nxdomain
+- host: security.kodiak.ai
+  status: nxdomain
